@@ -1,0 +1,164 @@
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family:sans-serif;
+}
+.vin{
+  padding:50px;
+}
+.fin{
+  display:flex;
+  justify-content:space-between;
+  padding:80px 40px;
+  background-color:lightblue;
+  height:20vh;
+  position:sticky;
+  top:0;
+  right:0;
+}
+.fin nav ul{
+  display:flex;
+}
+.fin nav ul li{
+  padding:10px;
+  font-size:35px;
+  list-style-type:none;
+  font-family:sans-serif;
+}
+.fin nav ul li a{
+  text-decoration:none;
+  color:black;
+}
+.fin h1{
+  font-family:sans-serif;
+}
+.img{
+  background:linear-gradient(grey,white,rgb(26, 47, 143));
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  display:flex;
+  flex-direction:column;
+  justify-content:center; 
+  align-items:center;
+  height:40vh;
+  width:3000px;
+}
+.img button{
+  margin:20px 0;
+  padding:30px 80px;
+  border:1px solid black;
+  background-color:transparent;
+  border-radius:10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.img button a{
+  text-decoration:none;
+  font-size:40px;
+  color:black;
+  font-weight:bold;
+}
+.img button:hover{
+  background-color:black;
+  transition:4s;
+}
+.img button a:hover{
+  color:white;
+}
+.vin{
+  display:flex;
+  justify-content:center;
+  align-self:center;
+  flex-direction:column;
+  margin:50px 0;
+}
+.vin h2{
+  text-align:center;
+  color:grey;
+}
+.kin .pen{
+   height:30vh;
+   width:400px;
+   border:1px solid transparent;
+}
+.kin .pen img{
+  width:100%;
+  height:30vh;
+  border-radius:10px;
+}
+.kin{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+.class{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.kin .vex{
+  margin:20px;
+}
+.bill {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction:column;
+  margin-top:90px;
+}
+.bill input,button{
+  padding:20px 60px;
+  font-size:25px;
+  color:grey;
+  text-align:flex-start;
+  border:1px solid grey;
+  font-weight:bold;
+  border-radius:10px;
+}
+.bill button{
+  background-color:black;
+  border:none;
+  margin-top:30px;
+  display:inline-block;
+}
+.bill button:hover{
+  cursor: pointer;
+}
+footer .pik{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin:0 80px;
+  line-height:200px;
+}
+footer .pik p{
+  color:grey;
+  font-size:40px;
+}
+footer .pik .come{
+  padding:30px 5%;
+  font-size:35px;
+  color:grey;
+}
+footer img{
+  height:20vh;
+  width:30%;
+  display:flex;
+  margin:0px auto;
+  margin-top:40px;
+}
+footer img:hover{
+  cursor:pointer;
+}
+footer p{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  line-height:100px;
+  color:grey;
+  font-weight:bold;
+}
+
